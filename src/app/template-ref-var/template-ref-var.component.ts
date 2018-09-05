@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./template-ref-var.component.scss']
 })
 export class TemplateRefVarComponent implements OnInit {
-  public LocalVariable:string='闫晓婷是小狗！'
+  public LocalVariable:string='闫晓婷是大美女！'
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public sayHello(name:string):void{
+    alert(name);
   }
 
 }
