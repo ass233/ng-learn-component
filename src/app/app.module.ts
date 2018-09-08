@@ -13,6 +13,8 @@ import { NgIfComponent } from './ng-if/ng-if.component';
 import { NgForComponent } from './ng-for/ng-for.component';
 import { NgSwichComponent } from './ng-switch/ng-switch.component';
 import { NgModelComponent } from './ng-model/ng-model.component';
+import { NgClassComponent } from './ng-class/ng-class.component';
+import { NgStyleComponent } from './ng-style/ng-style.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { NgModelComponent } from './ng-model/ng-model.component';
     NgForComponent,
     NgSwichComponent,
     NgModelComponent,
+    NgClassComponent,
+    NgStyleComponent,
   ],
   imports: [
     BrowserModule,
