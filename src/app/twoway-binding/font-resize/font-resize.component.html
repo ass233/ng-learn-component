@@ -1,0 +1,7 @@
+<div style="border:2px solid #333">
+  <p>这是子组件</p>
+  <button (click)="dec()" title="smaller">-</button>
+  <button (click)="inc()" bigger="bigger">+</button>
+  <!-- <label [ngStyle]="{'font-size': size}">FontSize:{{size}}</label> -->
+  <label [style.font-size.px]="size">FontSize: {{size}}px</label>
+</div>

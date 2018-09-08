@@ -1,6 +1,8 @@
 <div class="panel panel-primary">
   <div class="panel-heading">Aangular双向绑定</div>
   <div class="panel-body">
-    <button class="btn btn-success" (click)="btnClick($event)">双向绑定</button>
+    <as-font-resize [(size)] = "fontSizePx"></as-font-resize>
+    <!-- <div [ngStyle]="{'font-size': fontSizePx}">Resizable Text</div> -->
+    <div [style.font-size.px]="fontSizePx">Resizable Text</div>
   </div>
 </div>

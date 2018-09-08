@@ -1,0 +1,16 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">Aangular    *ngSwitch</div>
+    <div class="panel-body">
+        <span [ngSwitch]="mapStatus">
+          <p *ngSwitchCase="0">
+            正在下载
+          </p>
+          <p *ngSwitchCase="1">
+            正在读取
+          </p>
+          <p *ngSwitchDefault>
+            系统繁忙
+          </p>
+        </span>
+    </div>
+  </div>

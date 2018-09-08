@@ -1,0 +1,11 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">Aangular    *ngFor用法</div>
+    <div class="panel-body">
+      <h3>请选择一个媳妇</h3>
+      <ul>
+        <li *ngFor="let wife of wifes; let i=index">
+          {{i+1}} - {{wife.name}}
+        </li>
+      </ul>
+    </div>
+  </div>

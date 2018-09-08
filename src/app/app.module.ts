@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TemplateInterporationComponent } from './template-interporation/template-interporation.component';
@@ -7,6 +8,11 @@ import { TemplateRefVarComponent } from './template-ref-var/template-ref-var.com
 import { ValueBindingComponent } from './value-binding/value-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TwowayBindingComponent } from './twoway-binding/twoway-binding.component';
+import { FontResizeComponent } from './twoway-binding/font-resize/font-resize.component';
+import { NgIfComponent } from './ng-if/ng-if.component';
+import { NgForComponent } from './ng-for/ng-for.component';
+import { NgSwichComponent } from './ng-switch/ng-switch.component';
+import { NgModelComponent } from './ng-model/ng-model.component';
 
 @NgModule({
   declarations: [
@@ -16,9 +22,15 @@ import { TwowayBindingComponent } from './twoway-binding/twoway-binding.componen
     ValueBindingComponent,
     EventBindingComponent,
     TwowayBindingComponent,
+    FontResizeComponent,
+    NgIfComponent,
+    NgForComponent,
+    NgSwichComponent,
+    NgModelComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
