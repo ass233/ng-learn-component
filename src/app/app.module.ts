@@ -7,6 +7,9 @@ import { ParentAndChildComponent } from './parent-and-child/parent-and-child.com
 import { BrotherComponent } from './brother/brother.component';
 import { LocalStorageComponent } from './local-storage/local-storage.component';
 import { ChildComponent } from './parent-and-child/child/child.component';
+import { Child1Component } from './brother/child1/child1.component';
+import { Child2Component } from './brother/child2/child2.component';
+import { EventBusService } from './brother/service/service.component';
 
 @NgModule({
   declarations: [
@@ -16,12 +19,14 @@ import { ChildComponent } from './parent-and-child/child/child.component';
     BrotherComponent,
     LocalStorageComponent,
     ChildComponent,
+    Child1Component,
+    Child2Component,
 
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [EventBusService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

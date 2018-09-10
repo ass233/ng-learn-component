@@ -12,7 +12,5 @@ export class ParentAndChildComponent implements OnInit {
   ngOnInit() {
   }
 
-  public doSomething():void{
-    alert('收到子组件的自定义事件');
-  }
+
 }

@@ -8,6 +8,7 @@ import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 export class ChildComponent implements OnInit {
 
   private _panelTitle:string="我是子组件";
+  
    @Input()
    set panelTitle(panelTitle:string){
       this._panelTitle = "【"+panelTitle+"】";
@@ -18,7 +19,7 @@ export class ChildComponent implements OnInit {
    }
 
   @Output()
-  public follow=new EventEmitter<string>();
+  public follow = new EventEmitter<string>();
 
   constructor() { }
 
