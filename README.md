@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
-##分支内容
+# 分支内容
 
 template分支，用12个例子全面示范Angular的模板语法
 
@@ -23,7 +23,7 @@ contentchild分支，示范ContentChild和ContentChildren的玩法
 viewchild分支，示范ViewChild和ViewChildren的玩法
 
 
-##仓库地址
+# 仓库地址
 
 根据不同分支找不同分支
 
@@ -31,11 +31,11 @@ git clone <仓库地址>
 
 cd ng-learn-component
 
-##安装依赖
+## 安装依赖
 
 npm install 
 
-##启动
+# 启动
 
 ng serve
 
